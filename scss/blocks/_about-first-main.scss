@@ -1,0 +1,33 @@
+.about-first-main{
+    width: 100%;
+    max-width: 1440px;
+    height: 200px;
+    margin: auto;
+    background-image: url(../../images/about-first-main-background-image.svg);
+}
+.about-first-main-wrapper{
+    width: 100%;
+    max-width: 1280px;
+    height: 200px;
+    margin: auto;
+}
+.about-first-main-heading-wrapper{
+    list-style: none;
+}
+.about-first-main-heading-wrapper::after{
+    position: absolute;
+    content: url(../../images/about-3-circles.svg);
+
+    margin-left: 30%;
+}
+.about-first-main-heading{
+    font-family: Space Mono, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 56px;
+letter-spacing: -2.5px;
+color: #FFFFFF;
+    margin: 0;
+    padding-top: 65px;
+}
