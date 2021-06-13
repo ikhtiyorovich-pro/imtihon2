@@ -1,20 +1,22 @@
 .about-header-section{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1280px;
     height: 96px;
     margin: auto;
 }
 .about-header-left-wrapper{
     width: 100%;
-    max-width: 1280px;
+    max-width: 1100px;
     height: 96px;
     display: flex;
     margin: auto;
+    padding: 0;
     align-items: center;
 }
 .basic-logo-wrapper{
     list-style: none;
-    margin-right: 50px;
+    margin-right: 100px;
+    margin-left: -40px;
 } .basic-logo{
     width: 100%;
     max-width: 108px;
@@ -40,8 +42,10 @@ line-height: 25px;
     width: 100%;
     max-width: 180px;
     height: 53px;
-    margin-left: auto;
     list-style: none;
+    margin-top: 30px;
+    margin-left: auto;
+   
    
 }
 .about-header-link{

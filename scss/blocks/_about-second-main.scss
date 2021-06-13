@@ -5,6 +5,7 @@
     margin: auto;
     margin-top: 200px;
 }
+
 .about-main-second-item-wrapper{
     width: 100%;
     max-width: 1275px;
@@ -13,6 +14,12 @@
 }
 .about-main-second-heading-wrapper{
     list-style: none;
+}
+.about-main-second-heading-wrapper::after{
+    position: absolute;
+    content: url(../../images/half-circle.svg);
+    margin-top: -300px;
+    margin-left:  1225px;
 }
 .about-main-second-heading-wrapper::before{
     position: absolute;

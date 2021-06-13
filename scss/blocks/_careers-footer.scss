@@ -1,0 +1,91 @@
+.footer{
+    margin-top: 100px;
+}
+    
+.careers-first-footer-wrapper{
+        width: 100%;
+        max-width: 1440px;
+        height: 300px;
+        display: flex;
+        margin: auto;
+        background-color:#495567;
+    
+}
+ .careers-first-footer-wrapper::after{
+        position: absolute;
+    content: url(../../images/first-footer-circles.svg);
+ margin-top: 145px;
+        margin-left: 445px;
+    }
+    .footer-careers-first-heading{
+        width: 100%;
+        max-width: 415px;
+        height: 96px;
+        font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    align-items: center;
+    color: #FFFFFF; 
+    }
+    .careers-first-footer-items-left{
+        list-style: none;
+        margin-right: 372px;
+        margin-left: 80px;
+    }
+    .careers-first-footer-items-right + .careers-first-footer-items-right{
+       margin-left: 18px;
+    }
+    .careers-first-footer-items-wrapper-left{
+        display: flex;
+        list-style: none;
+       align-items: center;
+    }
+    .footer-careers-second-second-wrapper{
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-left: 0;
+        
+    }
+    .footer-careers-second-second-section{
+        width: 100%;
+        max-width: 1440px;
+        height: 96px;
+        margin: auto;
+        margin-bottom: 100px;
+        background-color: #333A44;
+    }
+    .footer-careers-second-second-list{
+        list-style: none;
+    }
+    
+    .footer-careers-second-second-list + .footer-careers-second-second-list{    
+        margin-left: 30px;
+    }
+    .footer-careers-second-second-links{
+        font-family: Space Mono, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+        color:  #939CAA;
+    }
+    .footer-careers-second-second-links:hover{
+        color:#FCB72B;
+        transition: 0.3s all;
+    }
+    .footer-careers-second-logo-wrapper{
+        list-style: none;
+        margin-left: 660px;
+    }
+    .footer-careers-second-logo-wrapper + .footer-careers-second-logo-wrapper{
+       margin-left: 20px;
+    }
+    .footer-careers-second-logo-wrapper + .footer-careers-second-logo-wrapper + .footer-careers-second-logo-wrapper{
+      margin-left: 20px;
+    }

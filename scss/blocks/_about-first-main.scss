@@ -14,11 +14,12 @@
 .about-first-main-heading-wrapper{
     list-style: none;
 }
-.about-first-main-heading-wrapper::after{
+.about-first-main-wrapper::after{
     position: absolute;
     content: url(../../images/about-3-circles.svg);
-
-    margin-left: 30%;
+    size: 234px 63px;
+    margin-top: -50px;
+    margin-left: 1117px;
 }
 .about-first-main-heading{
     font-family: Space Mono, sans-serif;

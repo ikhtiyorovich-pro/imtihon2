@@ -94,9 +94,19 @@ line-height: 25px;
    
     margin-top: 10px;
     border-style: none;
-    background-color: rgb(255, 174, 0);
+    background-color: #FCB72B;
     color: white;
     padding: 15px 45px;
+    cursor: pointer;
+    
+   
+}
+.main-first-items-link:hover{
+    cursor: pointer;
+    border: 1px solid #FCB72B;
+    color: #FCB72B;
+    background-color: rgba(108, 113, 147, 0);
+
    
 }
 .main-first-items-links{
