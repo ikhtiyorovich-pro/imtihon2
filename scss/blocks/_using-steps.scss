@@ -1,0 +1,114 @@
+
+.using-steps .container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+align-items: center;
+padding: 0 20px;
+margin-bottom: 150px;
+}
+.using-steps__list{
+    padding: 0;
+}
+.using-steps__item{
+    display: flex;
+}
+
+.using-steps__round-images{
+    border-radius: 50%;
+    margin-left: auto;
+}
+.second-img{
+    order: -1;
+    margin-right: 50px;
+    margin-left: -20px;
+}
+.using-steps__heading{
+    width: 100%;
+    max-width: 445px;
+    font-family: Space Mono, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: -2.14286px;
+color: #495567;
+}
+.using-steps__paragraph{
+    width: 100%;
+    max-width: 445px;
+    font-family: Lexend Deca, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 25px;
+margin-bottom: 50px;
+color: #939CAA;
+}
+.using-steps__link{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    padding: 14px 44px;
+    color: #FFFFFF;
+    background-color: #FCB72B;
+}
+.using-steps__link:hover{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    padding: 14px 44px;
+    color: #FCB72B;
+    background-color: #FFFFFF;
+    border: 3px solid #FCB72B;
+    transition: 0.4s all;
+    
+}
+@media only screen and (max-width:911px){
+    .using-steps__item{
+        display: flex;
+        flex-direction: column;
+    }
+    .using-steps{
+        margin-top: 400px;
+    }
+    .using-steps__round-images{
+        border-radius: 50%;
+        margin:0 auto;
+        align-items: center;
+
+    }
+    .using-steps__item{
+      margin: 0 auto;
+      align-items: center;
+      text-align: center;
+    }
+    .using-steps__round-images{
+    border-radius: 50%;
+    margin-left: auto;
+    }
+    .using-steps__round-images{
+    margin-top: 60px;
+    }
+    .using-steps__round-images{
+        order: -1;
+        margin-right: 50px;
+        margin-left: -20px;
+    }
+}
+@media only screen and (max-width:613px){
+
+    .using-steps__round-images{
+        border-radius: 50%;
+        margin:0 auto;
+        align-items: center;
+        margin: 0;
+    }
+    
+}

@@ -5,112 +5,166 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./css/main.min.css" />
-		<title>About-scoot</title>
+		<title>Document</title>
 	</head>
 	<body>
-		<header class="about-header">
-			<div class="about-header-section">
-				<ul class="about-header-left-wrapper">
-					<li class="basic-logo-wrapper">
-						<a href="./home.html"
-							><img
-								class="basic-logo"
-								src="./images/scoot.svg"
-								alt="there is a basic site logo"
-								width="108"
-								height="29"
-						/></a>
-					</li>
-					<li class="about-header-left-list">
-						<a class="about-header-left-links" href="./about.html">About</a>
-					</li>
-					<li class="about-header-left-list">
-						<a class="about-header-left-links" href="./locations.html"
-							>Location</a
-						>
-					</li>
-					<li class="about-header-left-list">
-						<a class="about-header-left-links" href="./careers.html">Careers</a>
-					</li>
-					<li class="about-header-right-link">
-						<a class="about-header-link" href="#">Get Scootin</a>
-					</li>
-				</ul>
+		<header class="site__header">
+			<div class="container">
+				<button class="hamburger">
+					<img
+						src="./images/hamburger.svg"
+						alt="site's hamburger"
+						width="20"
+						height="16"
+					/>
+				</button>
+				<a class="site-nav__logo" href="./home.html"
+					><img
+						class="basic-logo"
+						src="./images/scoot.svg"
+						alt="there is a basic site logo"
+						width="108"
+						height="29"
+				/></a>
+
+				<nav class="site-nav">
+					<ul class="header-left-wrapper">
+						<li class="header-left-list">
+							<a class="header-left-links" href="./about.html">About</a>
+						</li>
+						<li class="header-left-list">
+							<a class="header-left-links" href="./locations.html">Location</a>
+						</li>
+						<li class="header-left-list">
+							<a class="header-left-links" href="./careers.html">Careers</a>
+						</li>
+					</ul>
+				</nav>
+				<a class="header-link" href="#">Get Scootin</a>
 			</div>
 		</header>
-		<main class="about-main">
-			<div class="about-first-main">
-				<ul class="about-first-main-wrapper">
-					<li class="about-first-main-heading-wrapper">
-						<h1 class="about-first-main-heading">About</h1>
+		<main class="site-main">
+			<div class="container">
+				<h1 class="site-main__heading">About</h1>
+			</div>
+		</main>
+		<section class="social-site">
+			<div class="container">
+				<ul class="using-steps__list">
+					<li class="using-steps__item">
+						<div class="using-steps__box">
+							<h2 class="using-steps__heading">Easy to use riding telemetry</h2>
+
+							<p class="using-steps__paragraph">
+								The Scoot app is available with riding telemetry. This means it
+								can show you your average speed, how long you've been using the
+								scooter, your traveling distance, and many more things all in an
+								easy to use app.
+							</p>
+
+							<a class="using-steps__link" href="#">Learn More</a>
+						</div>
+						<img
+							class="using-steps__round-images"
+							src="./images/about-girl.png"
+							alt="there is a girl"
+							width="445"
+							height="445"
+						/>
+					</li>
+					<li class="using-steps__item coming">
+						<div class="using-steps__box">
+							<h2 class="using-steps__heading">Coming to a city near you</h2>
+
+							<p class="using-steps__paragraph">
+								Scoot is available in 4 major cities so far. We’re expanding
+								rapidly, so be sure to let us know if you want to see us in your
+								hometown. We’re aiming to let our scooters loose on 23 cities
+								over the coming year.
+							</p>
+
+							<a class="using-steps__link" href="#">Learn More</a>
+						</div>
+						<img
+							class="using-steps__round-images second-img"
+							src="./images/about-train.png"
+							alt="there is a girl"
+							width="445"
+							height="445"
+						/>
 					</li>
 				</ul>
 			</div>
-			<div class="about-main-second-section">
-				<ul class="about-main-second-item-wrapper">
-					<li class="about-main-second-heading-wrapper">
-						<a href="#"
-							><h2 class="about-main-second-heading">
-								Mobility for the digital era
-							</h2></a
-						>
-						<a href="#"
-							><p class="about-main-second-heading-paragraph">
-								Getting around should be simple (and even fun!) for everyone. We
-								embrace technology to provide low cost, smart access to scooters
-								at your fingertips.
-							</p></a
-						>
+		</section>
+		<section class="values-part">
+			<div class="container">
+				<h2 class="values-part__title">Why join us?</h2>
+
+				<ol class="values-part__list">
+					<li class="values-part__item">
+						<div class="values-wrapper">
+							<h3 class="values-part__item-title">Our tech</h3>
+
+							<p class="values-part__text">
+								We’re using cutting edge technology to drive accessible urban
+								transportation forward. Our fully electric scooters are a joy to
+								ride!
+							</p>
+						</div>
+						<picture class="values-pic">
+							<img
+								class="care-mission-pics"
+								src="./images/about-fourth-main-phone-image.svg"
+								alt="phone"
+								width="240"
+								height="240"
+							/>
+						</picture>
 					</li>
-				</ul>
+
+					<li class="values-part__item">
+						<div class="values-wrapper">
+							<h3 class="values-part__item-title">Our integrity</h3>
+
+							<p class="values-part__text">
+								We are fully committed to deliver a great yet safe, sustainable
+								micro-mobility experience in every city we serve.
+							</p>
+						</div>
+						<picture class="values-pic">
+							<img
+								class="care-mission-pics"
+								src="./images/about-scooter.png"
+								alt="phone"
+								width="240"
+								height="240"
+							/>
+						</picture>
+					</li>
+
+					<li class="values-part__item">
+						<div class="values-wrapper">
+							<h3 class="values-part__item-title">Our community</h3>
+
+							<p class="values-part__text">
+								We support every community we serve. All workers are paid a
+								living wage based on their location and are Scoot employees.
+							</p>
+						</div>
+						<picture class="values-pic">
+							<img
+								class="care-mission-pics"
+								src="./images/about-person.png"
+								alt="phone"
+								width="240"
+								height="240"
+							/>
+						</picture>
+					</li>
+				</ol>
 			</div>
-			<div class="about-main-third-section">
-				<ul class="about-main-third-item-wrapper">
-					<li class="about-main-third-heading-wrapper">
-						<a href="#"
-							><h2 class="about-main-third-heading">Better urban living</h2></a
-						>
-						<a href="#"
-							><p class="about-main-third-heading-paragraph">
-								We’re helping connect cities and bring people closer together.
-								Our scooters are also fully-electric and we offset the minimal
-								carbon footprint for each ride.
-							</p></a
-						>
-					</li>
-				</ul>
-			</div>
-			<div class="about-main-fourth-section">
-				<ul class="about-main-fourth-item-wrapper">
-					<li class="about-fourth-main-heading-wrapper">
-						<h2 class="about-fourth-main-heading">Our values</h2>
-					</li>
-				</ul>
-				<ul class="about-fourth-main-texts-wrapper">
-					<li class="about-fourth-main-items">
-						<h3 class="about-fourth-main-mini-headings1">Our tech</h3>
-						<p class="about-fourth-main-paragraph1">
-							We’re using cutting edge technology to drive accessible urban
-							transportation forward. Our fully electric scooters are a joy to
-							ride!
-						</p>
-					</li>
-					<li class="about-fourth-main-items">
-						<h3 class="about-fourth-main-mini-headings2">Our integrity</h3>
-						<p class="about-fourth-main-paragraph2">
-							We are fully committed to deliver a great yet safe, sustainable
-							micro-mobility experience in every city we serve.
-						</p>
-					</li>
-					<li class="about-fourth-main-items">
-						<h3 class="about-fourth-main-mini-headings3">Our community</h3>
-						<p class="about-fourth-main-paragraph3">
-							We support every community we serve. All workers are paid a living
-							wage based on their location and are Scoot employees.
-						</p>
-					</li>
-				</ul>
-			</div>
+		</section>
+		<section>
 			<div class="about-fifth-main-section">
 				<ul class="about-fifth-main-heading-wrapper">
 					<li class="about-fifth-main-heading-item">
@@ -192,90 +246,83 @@
 					</li>
 				</ul>
 			</div>
-		</main>
-		<footer class="footer">
-			<div class="first-footer-wrapper">
-				<ul class="first-footer-items-wrapper-left">
-					<li class="first-footer-items-left">
-						<a class="footer-first-heading-link" href="#"
-							><h2 class="footer-first-heading">
-								Sign up and Scoot off today
-							</h2></a
-						>
-					</li>
-					<li class="first-footer-items-right">
-						<a class="first-footer-images-link" href="#"
-							><img
-								src="/images/appstore.svg"
-								alt="there is a appstore"
-								width="159"
-								height="56"
-						/></a>
-					</li>
-					<li class="first-footer-items-right">
-						<a class="first-footer-images-link" href="#"
-							><img
-								src="/images/googleplay.svg"
-								alt="there is a googleplay"
-								width="182"
-								height="56"
-						/></a>
-					</li>
-				</ul>
+		</section>
+		<section class="sign-section">
+			<div class="continer">
+				<h2 class="sign-section__heading">Sign up and Scoot off today</h2>
+
+				<div class="img-box">
+					<a class="first-footer-images-link" href="#"
+						><img
+							class="sign-section__img"
+							src="/images/appstore.svg"
+							alt="there is a appstore"
+							width="159"
+							height="56"
+					/></a>
+
+					<a class="first-footer-images-link" href="#"
+						><img
+							class="sign-section__img"
+							src="/images/googleplay.svg"
+							alt="there is a googleplay"
+							width="182"
+							height="56"
+					/></a>
+				</div>
 			</div>
-			<div class="footer-second-section">
-				<ul class="footer-second-wrapper">
-					<li class="basic-logo-wrapper">
-						<a href="./home.html"
-							><img
-								class="basic-logo"
-								src="./images/scoot-footer.svg"
-								alt="there is a basic site logo"
-								width="108"
-								height="29"
-						/></a>
+		</section>
+		<footer class="footer__section">
+			<div class="container">
+				<a href="./home.html"
+					><img
+						class="basic-logo"
+						src="./images/scoot-footer.svg"
+						alt="there is a basic site logo"
+						width="108"
+						height="29"
+				/></a>
+				<ul class="site-footers__list">
+					<li class="site-footer__item">
+						<a class="footer-second__link" href="./about.html">About</a>
 					</li>
-					<li class="footer-second-list">
-						<a class="footer-second-links" href="./about.html">About</a>
+					<li class="site-footer__item">
+						<a class="footer-second__link" href="./locations.html">Location</a>
 					</li>
-					<li class="footer-second-list">
-						<a class="footer-second-links" href="./locations.html">Location</a>
-					</li>
-					<li class="footer-second-list">
-						<a class="footer-second-links" href="./careers.html">Careers</a>
-					</li>
-					<li class="footer-logo-wrapper">
-						<a href="#"
-							><img
-								src="./images/facebook.svg"
-								alt="there is a facebook logo"
-								width="24"
-								height="24"
-							/>
-						</a>
-					</li>
-					<li class="footer-logo-wrapper">
-						<a class="footer-logo-link" href="#"
-							><img
-								class="footer-logo-link"
-								src="./images/twitter.svg"
-								alt="there is a twitter logo"
-								width="24"
-								height="20"
-							/>
-						</a>
-					</li>
-					<li class="footer-logo-wrapper">
-						<a class="footer-logo-link" href="https://www.instagram.com/"
-							><img
-								class="footer-logo-link"
-								src="./images/instagram.svg"
-								alt="there is a instagram logo"
-								width="24"
-								height="24"
-						/></a>
+					<li class="site-footer__item">
+						<a class="footer-second__link" href="./careers.html">Careers</a>
 					</li>
 				</ul>
+				<div class="link-box">
+					<a class="footer-logo-link" href="#"
+						><img
+							class="footer-logo-img"
+							src="./images/facebook.svg"
+							alt="there is a facebook logo"
+							width="24"
+							height="24"
+						/>
+					</a>
+
+					<a class="footer-logo-link" href="#"
+						><img
+							class="footer-logo-img"
+							src="./images/twitter.svg"
+							alt="there is a twitter logo"
+							width="24"
+							height="20"
+						/>
+					</a>
+
+					<a class="footer-logo-link" href="https://www.instagram.com/"
+						><img
+							class="footer-logo-img"
+							src="./images/instagram.svg"
+							alt="there is a instagram logo"
+							width="24"
+							height="24"
+					/></a>
+				</div>
 			</div>
 		</footer>
 	</body>

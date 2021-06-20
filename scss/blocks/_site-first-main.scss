@@ -1,38 +1,22 @@
-// @media only screen and (max-width:1440px){
-//     .section-main{
-//         width: 100%;
-//         max-width: 1280px;
-//         height: auto;
-//         margin: auto;
-//        background-image: url(../../images/scooter.jpg);
-//        background-size: 1280px;
-//        background-repeat: no-repeat;
-//        background-position: center;
-      
-//     } 
-// }
-
-
-.section-main{
-    width: 100%;
-    max-width: 1440px;
-    height: 650px;
-    margin: auto;
-   background-image: url(../../images/scooter.jpg);
-   background-size: 1440px 650px;
-   background-repeat: no-repeat;
-   
-  
-}
-.main-first-item-wrapper{
+.site__main .container{
     width: 100%;
     max-width: 1280px;
-    height: 400px;
-    padding-top: 120px;
-    padding-left: 155px;
-    margin: 0;
-
+    margin: 0 auto;
+align-items: center;
+padding: 0 20px;
+margin-bottom: 150px;
 }
+
+.site-main-box{
+    width: 100%;
+   background-image: url(../../images/scooter.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-top: 100px;
+   padding: 152px 165px;
+}
+
 .main-heading-first-items{
     list-style: none;
     
@@ -43,7 +27,6 @@
 .basic-site-main-heading{
     width: 100%;
     max-width: 530px;
-    height: 112px;
     font-family: Space Mono, sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -55,29 +38,17 @@ line-height: 56px;
 .main-first-items-paragraph{
     width: 100%;
     max-width: 405px;
-    height: 100px;
     font-family: Lexend Deca, sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
 line-height: 25px;
   text-decoration: none;
+  margin-bottom: 40px;
     color: white;
 }
-.main-first-items-paragraph::before{
-    margin-top: 40px;
-    margin-left: -255px;
-    position: absolute;
-   content: url(../../images/strelka-scooter-left.svg);
 
-}
-.main-first-items-paragraph::after{
-    margin-top: -30px;
-    margin-left:290px;
-    position: absolute;
-   content: url(../../images/strelka-scooter.svg);
 
-}
 .main-first-items{
     width: 100%;
     max-width: 400px;
@@ -117,4 +88,25 @@ font-size: 15px;
 line-height: 25px;
     text-decoration: none;
     color: white;
+}
+@media only screen and (max-width:613px){
+    .site-main-box{
+        width: 100%;
+        background-image: url(../../images/scooter.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        padding: 100px 100px;
+    }
+}
+@media only screen and (max-width:376px){
+    .basic-site-main-heading{
+        max-width: 255px;
+        text-align: center;
+    }
+    .main-first-items-paragraph{
+        text-align: center;
+        max-width: 255px;
+    }
 }

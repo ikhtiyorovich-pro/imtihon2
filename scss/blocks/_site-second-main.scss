@@ -58,3 +58,21 @@ line-height: 25px;
 color: #939CAA;
 
 }
+@media only screen and (max-width:613px){
+    .main-second-heading-paragraph{
+        font-family: Lexend Deca,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    color: #939CAA;
+    
+    }
+    .main-second-item-wrapper{
+      margin: 0;
+      padding: 0;
+    
+    }
+}

@@ -1,0 +1,44 @@
+
+.sign-section .continer{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    padding: 0 20px;
+}
+.sign-section{
+ content: "";
+ background-image: url(../../images/footer-rounds.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size:cover;
+ padding: 102px 0 102px 0px;
+
+}
+.sign-section__heading{
+    width: 100%;
+    max-width: 415px;
+    font-family: Space Mono, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: -2.14286px;
+color: #FFFFFF;
+
+}
+.img-box{
+    margin-left: auto;
+}
+@media only screen and (max-width:600px){
+    .sign-section .continer{
+        flex-direction: column;
+    }
+    .img-box{
+        margin: 0 auto;
+    }
+    .sign-section__heading{
+        text-align: center;
+    }
+}
